@@ -19,6 +19,10 @@
         font-size: 21px;
       }
 
+      a {
+        color: #00f;
+      }
+
       .page-content-container {
         width: 100%;
 
@@ -31,6 +35,14 @@
       .logo-container img {
          width: 20rem;
       }
+
+      p.lead {
+        font-size: 1.2rem;
+      }
+
+      .directory-item {
+        margin-bottom: 1rem;
+      }
     </style>
   </head>
   <body>
@@ -40,9 +52,32 @@
           <div class="logo-container">
             <img src="/static/britai-logo.png" alt="BritAI logo">
           </div>
-          <h1>
-            Welcome to BritAI<sup>n</sup>
-          </h1>
+          
+          <p class="lead">
+              Welcome to BritAI. Welcome to BritAI<sup>n</sup>.
+          </p>
+
+          <p>
+              BritAI is the directory and workspace to accelerate British AI.
+          </p>
+
+          <div class="directory-container">
+
+            <div class="directory">
+              <h2>Directory</h2>
+              <div class="directory-item">
+                <h3>Epi</h3>
+                <a href="https://epihq.com">epihq.com</a>
+                <p>
+                  Contrarian cybersecurity, phishing protection, QR phishing protection, web search. Powered by Epi AI.
+                </p>
+              </div>
+            </div>
+
+            <p>
+              <a href="https://github.com/alexgreenland/britai">Suggest changes on GitHub</a>
+            </p>
+          </div>
         </div>
       </div>
     </main>
