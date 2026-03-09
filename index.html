@@ -21,6 +21,7 @@
 
       a {
         color: #00f;
+        text-decoration: none;
       }
 
       .page-content-container {
@@ -32,6 +33,10 @@
         }
       }
 
+      .logo-container {
+        text-align: center;
+      }
+
       .logo-container img {
          width: 20rem;
       }
@@ -40,9 +45,16 @@
         font-size: 1.2rem;
       }
 
+      .hero-lead {
+        text-align: center;
+      }
+
       .directory-item {
         margin-bottom: 1rem;
       }
+
+      .directory-suggestions {
+        margin-top: 3rem;
     </style>
   </head>
   <body>
@@ -53,8 +65,8 @@
             <img src="/static/britai-logo.png" alt="BritAI logo">
           </div>
           
-          <p class="lead">
-              Welcome to BritAI. Welcome to BritAI<sup>n</sup>.
+          <p class="hero-lead lead">
+              Welcome to BritAI. Welcome to BritAI<sup>n</sup>
           </p>
 
           <p>
@@ -74,9 +86,11 @@
               </div>
             </div>
 
-            <p>
-              <a href="https://github.com/alexgreenland/britai">Suggest changes on GitHub</a>
-            </p>
+            <div class="directory-suggestions">
+              <p>
+                <a href="https://github.com/alexgreenland/britai">Suggest changes on GitHub</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
