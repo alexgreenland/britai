@@ -16,6 +16,7 @@
         margin: 0;
         padding: 0;
         font-family: system-ui, sans-serif;
+        font-size: 21px;
       }
 
       .page-content-container {
@@ -23,7 +24,12 @@
 
         @media (min-width: 950px) {
           width: 70%;
+          margin: 0 auto;
         }
+      }
+
+      .logo-container img {
+         width: 20rem;
       }
     </style>
   </head>
@@ -31,7 +37,9 @@
     <main>
       <div class="page-content-container">
         <div class="page-content">
-          <img src="/static/britai-logo.png" alt="BritAI logo">
+          <div class="logo-container">
+            <img src="/static/britai-logo.png" alt="BritAI logo">
+          </div>
           <h1>
             Welcome to BritAI<sup>n</sup>
           </h1>
